@@ -22,3 +22,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+[Design Schema](https://app.dbdesigner.net/designer/schema/404701)
