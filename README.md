@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Branch structure and protocal
+main - (Unused for now) is the Production branch of the application - Only gets PRs from `staging` and `hotfix`
+staging - will eventually be automaticaly deployed to the same hosting service as Main to test - only gets PRs from `development`
+development - the main working branch that PRs are merged into
 
-Things you may want to cover:
+working branches should be formatted with the pivital tracking number followed by the branch name
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Schema
+[Design Schema](https://app.dbdesigner.net/designer/schema/404701)
